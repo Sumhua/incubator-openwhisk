@@ -33,6 +33,7 @@ ext.coverageJars = [
 distDockerCoverage.dependsOn ':common:scala:jarScoverage', 'jarScoverage'
 
 repositories {
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'} 
     mavenCentral()
 }
 
